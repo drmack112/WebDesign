@@ -1,0 +1,32 @@
+body{
+    background-color: #ffe08c;
+    width:80%;
+}
+h1{
+    color:#059c67;
+}
+
+/* 
+    These three rules are exactly the same!  There is no need
+    to use all three of them.  One solution would be to assign
+    every element we want to style this way with the class
+    "special" and delete the other rules
+  */
+.special-hardfloor{
+    color:green;
+    /* Make the font twice as big as it would be normally */
+    font-size:2em; 
+    font-style:italic;
+}
+.special-carpet{
+    color:green;
+    /* Make the font twice as big as it would be normally */
+    font-size:2em; 
+    font-style:italic;
+}
+.special{
+     color:green;
+    /* Make the font twice as big as it would be normally */
+    font-size:2em; 
+    font-style:italic;
+}

@@ -1,0 +1,76 @@
+body {
+    background-color: #d3bfff;
+    font-family: Arial;
+}
+
+/* The background-color property will change smoothly over 1 second */
+h2 {
+    transition: background-color 1s;
+}
+
+/* The background will become yellow during a click */
+h2:active {
+    background-color: yellow;
+}
+
+/* The font-size property will change smoothly over half a second */
+p {
+    transition: font-size 0.5s;
+}
+
+/* The font-size will become 24px during a click */
+p:active {
+    font-size: 24px;
+}
+
+/* The height will change smoothly over 2 seconds, filter over 1 second */
+img.interactive-image {
+    height: 300px;
+    transition: height 2s, filter 1s;
+}
+
+/* The image will become 320px tall and inverted completely during a click */
+img.interactive-image:active {
+    height: 320px;
+    filter: invert(100%);
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+}
+
+/* transform, width, and height, will change smoothly over 1 second */
+div.square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    transition: transform 1s, width 1s, height 1s;
+}
+
+/* 
+ * The transform property allows you to apply transforms such as
+ * rotation, scale (size), and translation (movement)
+ */
+div.square:active {
+    transform: rotate(360deg);
+    width: 200px;
+    height: 200px;
+}
+
+/* Background-color, width, and color will change at different speeds */
+div.rectangle {
+    width: 300px;
+    height: 150px;
+    background-color: DarkBlue;
+    color: white;
+    transition: background-color 2s, width 3s, color 0.5s;
+}
+
+/* The background-color will become yellow, color black, and width 400px during a click */
+div.rectangle:active {
+    background-color: yellow;
+    color: black;
+    width: 400px;
+}

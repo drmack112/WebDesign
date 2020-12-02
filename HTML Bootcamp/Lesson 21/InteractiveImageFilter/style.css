@@ -1,0 +1,14 @@
+img {
+    height: 300px;  
+}
+
+img.interactive-image:hover {
+    height: 310px;
+    filter: brightness(150%);
+}
+
+body {
+    font-family: Helvetica;
+    background-color: #3be0d7;
+}
+
