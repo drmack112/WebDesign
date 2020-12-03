@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h4 id ='colorText'>Use the buttons to change the color of this text!</h4>
+        
+        <button style= 'color:red' onclick = "changeColor('red')"> Red</button>
+        
+        <!--Notice how the parameter for the function is also a String value-->
+        
+        <button style = 'color:blue' onclick = "changeColor('blue')"> Blue</button>
+        
+        <script>
+            function changeColor(colors)
+            {
+                document.getElementById('colorText').style.color = colors;
+            }
+        </script>
+    </body>
+</html>

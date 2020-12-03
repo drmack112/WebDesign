@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This is my webpage!
+        </title>
+    </head>
+    <body>
+        <h4>Open the console to see the two printed p tags!</h4>
+        <p>
+            Welcome to my website!
+        </p>
+        <p id = "para_one">
+            This is a paragraph!
+        </p>
+        <script>
+            var list = document.getElementsByTagName("p");
+            console.log("If we just print the list, the information provided is hard to understand:");
+            console.log(list);
+            console.log("If we index into the list, we can better use and understand the data:")
+            console.log(list[0]);
+            console.log(list[1]);
+            console.log("We can access just the text by using .innerHTML on the list item:");
+            console.log(list[0].innerHTML);
+            console.log(list[1].innerHTML);
+        </script>
+    </body>
+</html>
